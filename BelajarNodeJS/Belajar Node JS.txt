@@ -1,0 +1,55 @@
+ Node JS merupakan runtime untuk menjalankan program menggunakan bahasa Java script
+
+bahasa pemrogramman Java Script bisa dijalankan melalui WEB browser karena didalam browser punya V8 (chrome). tetapi hanya terbatas pada browser
+
+github/ry
+
+perilaku V8 : asychronus, single thread, non blocking
+
+Jadi Ryan Dahl membuat V8 engine yang gak hanya di browser namun juga di system operasi 
+
+Node JS : Memory,I/O, Network, File System
+Karakteristik Node JS :
+1. Asynchronous & Even Driven
+2. Non Blocking
+3. Single Threaded but Highly Scalable
+4. Cross Platform
+5. MIT License
+6. NPM
+
+Fitur Utama 
+1. File System --> Direktory Node Js, ambil dan simpan data
+2. Buffer --> bisa mengelola library, transfer file, streaming video, 
+3. HTTP --> kita bisa request dan respond
+4. REPL --> read evaluate print loop
+5. console --> 
+6. Crypto
+7. Zlib --> compress
+
+Node JS Cocok untuk
+1. Dynamic Single Page Application (SPA) --> aplikasi 1 halaman  yang isinya dinamis(bisa berubah-berubah) 
+2. Realtime App (CHat,Multiplayer) - bikin games/chat yang multi player membutuhkan pertukaran data secara real time 
+3. API --> agar orang lain bisa request datake aplikasi kalian
+4. Streamin App
+5. Microservice
+6. Command Line Tool
+7. MERN,MEAN,MEVN
+
+=======================================
+Pre Requisite
+1. Javascript Dasar
+2. Javascript lanjutan
+========================================
+
+Jika sudah bicara Node JS, konteksnya ada pada system operasi bukan pada web browser
+==============
+kita sudah tidak menggunakan DOM
+document.getElemenById()
+document.getElemenByClassName()
+documen.querySelector()
+==============
+berubah menjadi :
+fs.writeFile()
+os.platform()
+http.createServer()
+path.dirname()

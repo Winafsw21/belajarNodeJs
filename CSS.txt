@@ -1,0 +1,263 @@
+@media only screen and (max-width: 550px) {
+  body {
+    background-color: #9c835f;
+    margin: 0;
+    padding: 0;
+  }
+  /* Nav Bar */
+  .navbar {
+    position: absolute;
+    margin-top: 0px;
+  }
+  .img-nav-1 {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .img-nav-2 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 43px;
+  }
+  .navbar-display {
+    font-size: 36px;
+    margin-top: 15px;
+    margin-left: 120px;
+    color: #f9b23d;
+  }
+  .container {
+    background-color: #9c835f;
+    height: 1024px;
+  }
+  /* .player {
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    top: 100px;
+    left: 0px;
+  } */
+  .nama1 {
+    position: relative;
+    height: 300px;
+    margin-top: 1000px;
+    left: 250px;
+  }
+
+  button {
+    background: transparent;
+    border: transparent;
+  }
+  .batuPlayer {
+    position: absolute;
+    height: 50px;
+    top: 100px;
+    left: 0px;
+  }
+  .batuPlayer:hover {
+    transform: rotate(-20deg);
+    animation-name: buttonAnimate;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+  }
+  .batuPlayer:active {
+    background-color: gray;
+    border: black;
+    background-size: 100%;
+    height: 80px;
+    width: 120px;
+  }
+  .kertasPlayer {
+    position: absolute;
+    height: 50px;
+    top: 220px;
+    left: 250px;
+  }
+  .kertasPlayer:hover {
+    transform: rotate(20deg);
+    animation-name: buttonAnimate;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+  }
+  .kertasPlayer:active {
+    background-color: gray;
+    border: black;
+    height: 80px;
+    width: 120px;
+  }
+  .guntingPlayer {
+    position: absolute;
+    height: 50px;
+    top: 380px;
+    left: 250px;
+  }
+  *.guntingPlayer:hover {
+    transform: rotate(20deg);
+    animation-name: buttonAnimate;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+  }
+  .guntingPlayer:active {
+    background-color: gray;
+    border: black;
+    height: 80px;
+    width: 120x;
+  }
+  /* .operator {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  } */
+  #vs {
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    left: 530px;
+    color: red;
+    font-size: 24px;
+  }
+  .refresh {
+    position: absolute;
+    top: 500px;
+    left: 540px;
+  }
+  .refresh:hover {
+    transform: rotate(60deg);
+    animation-name: buttonAnimate;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+  }
+
+  .com {
+    position: absolute;
+    left: 850px;
+    top: 80px;
+  }
+  .batuCom {
+    position: absolute;
+    top: 120px;
+    left: 5px;
+  }
+  .batuCom:active {
+    background-color: gray;
+    border: black;
+    background-size: 100%;
+    height: 120px;
+    width: 120px;
+  }
+  .kertasCom {
+    position: absolute;
+    top: 240px;
+    left: 10px;
+  }
+  .kertasCom:active {
+    transform: rotate(-20deg);
+    background-size: 100%;
+    border: black;
+    height: 120px;
+    width: 120px;
+  }
+  .guntingCom {
+    position: absolute;
+    top: 400px;
+    left: 10px;
+  }
+  .guntingCom:active {
+    background-color: gray;
+    border: black;
+    height: 120px;
+    width: 120px;
+  }
+  .info {
+    position: absolute;
+    height: 50px;
+    width: 250px;
+    top: 260px;
+    left: 500px;
+    color: brown;
+    font-size: 34px;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+/* Responsive */
+.container {
+  background-color: #9c835f;
+  height: 1024px;
+}
+.navbar {
+  position: absolute;
+  margin-top: 0px;
+}
+
+.img-nav-1 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.img-nav-2 {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 43px;
+}
+.navbar-display {
+  font-size: 36px;
+  margin-top: 15px;
+  margin-left: 120px;
+  color: #f9b23d;
+}
+
+button {
+  background: transparent;
+  border: transparent;
+}
+
+/* .player {
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+#vs {
+  position: relative;
+  color: red;
+  top: 100px;
+}
+.operator {
+  position: relative;
+  top: 60px;
+  text-align: center;
+}
+.vs {
+  position: relative;
+  top: 100px;
+  left: 200px;
+  text-align: center;
+  color: red;
+  font-size: 26px;
+}
+.refresh {
+  position: relative;
+  margin-top: 5px;
+  left: 0px;
+  height: 20px;
+}
+.info {
+  position: relative;
+  height: 20px;
+  width: 150px;
+  margin-top: 0px;
+  left: 0px;
+  color: brown;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+}
+.com {
+  position: relative;
+  top: 90px;
+  text-align: center;
+} */
